@@ -330,3 +330,69 @@
         width: 374px;
     }
 }
+
+@media(min-width: 1140px){
+    .treinamento{
+        margin: 50px 200px 20px;
+    }
+    .treinamento .desenvolvimento{
+        margin: 0;
+    }
+    .conteudo-curso{
+        padding-bottom: 45px;
+    }
+    .conteudo-curso h3{
+        margin: 0 auto;
+    }
+    .conteudo-curso .bonus-especial h4{
+        margin: 0 auto;
+    }
+    .conteudo-curso .bonus-especial .lista-bonus{
+        margin: 35px auto;
+        text-align: center;
+    }
+    .conteudo-curso .bonus-especial .btn-3{
+        margin: 45px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .recaptulando .listagem-curso ul{
+        margin: 50px auto;
+        justify-content: center;
+    }
+    .recaptulando .listagem-curso ul .ajuste{
+        margin-left: 36px;
+    }
+    .recaptulando .recaptular{
+        justify-content: space-around;
+    }
+    .recaptulando .recaptular h4{
+        margin-left: 0;
+    }
+    .recaptulando .recaptular img{
+        margin-right: 0;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+    .footer div{
+        margin-left: 0;
+    }
+}
+
+@media(min-width: 1920px){
+    main{
+        height: 80vh;
+    }
+    .treinamento{
+        margin: 0 auto 80px;
+        justify-content: center;
+    }
+    .recaptulando .listagem-curso ul{
+        max-width: 1440px;
+    }
+    .recaptulando .listagem-curso ul .ajuste{
+        margin-left: 36px;
+    }
+}

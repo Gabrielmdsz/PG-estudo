@@ -3,9 +3,6 @@ body{
     color: #FFFFFF;
     background-color: #080808;
 }
-main{
-    height: 86vh;
-}
 
 .header{
     background: linear-gradient(to left, #FF42D6, #731E60);
