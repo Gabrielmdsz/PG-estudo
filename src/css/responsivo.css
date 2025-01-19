@@ -36,7 +36,7 @@
         margin: 0;
         position: absolute;
         top: 320px;
-        left: 50px;
+        left: 65px;
     }
     .descricao p{
         margin-top: 10px;
@@ -268,6 +268,11 @@
         padding: 20px 18px;
         margin: 0 auto;
     }
+    .surpresa-container .surpresa .info-surpresa .btn-4::after{
+        content: "";
+        display: none;
+    }
+
     .surpresa-container .surpresa img{
         width: 314px;
         height: 328px;
@@ -331,6 +336,54 @@
     }
 }
 
+@media(max-width: 375px){
+    .conteudo-curso .modulos .modulo div img{
+        width: 350px;
+    }
+    .conteudo-curso .modulos .modulo .info-modulo{
+        width: 350px;
+    }
+    .conteudo-curso .modulos .modulo.um{
+        margin: 12px;
+    }
+    @media(max-width: 370px){
+        .conteudo-curso .modulos .modulo.um{
+            margin: 5px;
+        }
+    }
+    
+    .conteudo-curso .bonus-especial .lista-bonus:nth-child(3),
+    .conteudo-curso .bonus-especial .lista-bonus:nth-child(4),
+    .conteudo-curso .bonus-especial .lista-bonus:nth-child(5),
+    .conteudo-curso .bonus-especial .lista-bonus:nth-child(6){
+        display: none;
+    }
+    .conteudo-curso .bonus-especial .lista-bonus{
+        margin: 5px;
+        margin-top: 20px;
+    }
+    @media(max-width: 370px){
+        .conteudo-curso .bonus-especial .lista-bonus{
+            margin: 0;
+        }
+    }
+    .conteudo-curso .bonus-especial .lista-bonus img{
+        margin: 0;
+    }
+    .recaptulando .recaptular h4{
+        margin: 60px 20px;
+    }
+    .surpresa-container .surpresa .info-surpresa ul li{
+        font-size: 11px;
+    }
+    .surpresa-container .garantia .info-garantia h4{
+        width: 100%;
+    }
+    
+    .footer div ul{
+       padding: 0;
+    }
+}
 @media(min-width: 1140px){
     .treinamento{
         margin: 50px 200px 20px;
