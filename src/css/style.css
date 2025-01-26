@@ -178,6 +178,7 @@ hr{
 
 .treinamento .desenvolvimento ul .alinhar-meio::before{
     align-self: center;
+    width: 38px;
 }
 
 .treinamento .desenvolvimento ul li:last-child{

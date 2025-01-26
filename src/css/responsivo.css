@@ -495,3 +495,73 @@
     align-items: center;
   }
 }
+@media(width: 1024px){
+    body{
+        width: 100%;
+    }
+    .hero{
+     padding: 10px 10px 60px;
+    }
+    .bonus{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .bonus ul{
+        gap: 40px;
+    }
+    .treinamento .desenvolvimento ul .alinhar-meio::before{
+        align-self: center;
+        width: 50px;
+    }
+    .acesso-metodologia{
+        padding: 0 10px 0;
+    }
+    .conteudo-curso h3{
+        width: 800px;
+    }
+    .conteudo-curso .modulos .modulo.modulo.quatro{
+        display: none;
+    }
+    .conteudo-curso .bonus-especial{
+        padding-bottom: 10px;
+    }
+    .conteudo-curso .bonus-especial h4{
+        width: 800px;
+    }
+    .conteudo-curso .bonus-especial .lista-bonus{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        justify-content: center;
+    }
+    .conteudo-curso .bonus-especial .lista-bonus img{
+        width: 270px;
+        height: 342px;
+    }
+    .conteudo-curso .bonus-especial .btn-3{
+        margin: 45px auto;
+        display: flex;
+    }
+    .recaptulando .listagem-curso ul{
+        margin-left: 0;
+    }
+    .recaptulando .listagem-curso ul .ajuste{
+        margin-left: 0;
+    }
+    .recaptulando .listagem-curso ul:last-child{
+        justify-content: center;
+    }
+    .mentora .info-mentora{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer div{
+        display: flex;
+        width: 800px;
+        align-items: center;
+    }
+    .footer div ul li{
+        width: 800px;
+    }
+}
